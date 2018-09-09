@@ -1,0 +1,5 @@
+---
+# tasks file for mongo
+
+- name: Execute cleanup script in shell
+  shell: mongo {{url}} -u {{username}} -p {{password}} --authenticationDatabase {{authenticationDatabase}} {{ role_path }}/files/cleanup.js

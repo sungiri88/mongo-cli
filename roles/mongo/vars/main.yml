@@ -1,0 +1,6 @@
+---
+# vars file for mongo
+url: localhost:27017/umapathy
+username: myUserAdmin
+password: abc123
+authenticationDatabase: admin
